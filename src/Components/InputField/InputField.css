@@ -1,8 +1,9 @@
 :root {
-    --main-color: #332FF6;
+    --main-color: #332ff6;
     --gray-color: #6c757d;
     --black-color: #212529;
-}
+    --bg-color: #e5e5e5;
+  }
 
 .inputField-container {
     position: relative;

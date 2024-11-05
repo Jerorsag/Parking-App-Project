@@ -9,8 +9,7 @@ export const RegisterForm = () => {
         tarifaCarro: "",
         tarifaMoto: "",
         cantidadCarros: "",
-        cantidadMotos: "",
-        servicio: "",
+        cantidadMotos: ""
     });
 
     const handleInputChange = (event) => {
@@ -85,16 +84,6 @@ export const RegisterForm = () => {
                         required
                     />
                 </div>
-
-                <label className="info-inputField">¿Algún otro servicio que ofrecer?</label>
-                <InputField
-                    icon={FaGift}
-                    type="text"
-                    name="servicio"
-                    value={values.servicio}
-                    placeholder="Ej: Lavado de Autos"
-                    onChange={handleInputChange}
-                />
 
                 <button type="submit" className="form-btn">Guardar</button>
             </form>

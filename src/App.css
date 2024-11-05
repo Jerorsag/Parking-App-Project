@@ -1,7 +1,16 @@
+:root {
+    --main-color: #332ff6;
+    --gray-color: #6c757d;
+    --gray-color2: #e9ecef;
+    --black-color: #212529;
+    --bg-color: #e5e5e5;
+  }
+
 .home {
     display: flex;
     position: relative;
     overflow: hidden;
     width: 100%; 
+    background-color: var(--bg-color);
 }
 

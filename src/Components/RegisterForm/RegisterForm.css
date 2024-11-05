@@ -2,15 +2,17 @@
   --main-color: #332ff6;
   --gray-color: #6c757d;
   --black-color: #212529;
+  --bg-color: #e5e5e5;
 }
 
 .container-form {
     width: 420px;
-    background: #fff;
+    background: var(--bg-color);
     padding: 10px;
     border-radius: 10px;
     align-self: center;
     margin: 0 auto;
+    border: solid 2px var(--black-color);
   }
   
   .form-title {

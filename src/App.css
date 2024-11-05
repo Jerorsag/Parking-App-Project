@@ -1,0 +1,7 @@
+.home {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+}
+

@@ -1,0 +1,63 @@
+:root {
+  --main-color: #332ff6;
+  --gray-color: #6c757d;
+  --black-color: #212529;
+}
+
+.container-form {
+    width: 420px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 0 auto;
+  }
+  
+  .form-title {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--main-color);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .info-inputField {
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 15px;
+  }
+  
+  .inputField-double-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-btn {
+    width: 50%;
+    height: 45px;
+    background-color: var(--main-color);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0 0 auto;
+    transition: all 0.3s ease;
+  }
+
+  .form-btn:hover {
+    background-color: rgba(51, 47, 246, 0.9);
+    transform: scale(1.01);
+  }
+  
